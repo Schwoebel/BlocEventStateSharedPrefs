@@ -64,11 +64,11 @@ class _SettingsState extends State<Settings> {
                       SaveLanguageEvent(newValue),
                     );
                   },
-                  items: state.language_selection.keys.map((String key) {
+                  items: state.languageSelection.keys.map((String key) {
                     return DropdownMenuItem<String>(
                       value: key,
                       child: Text(
-                        state.language_selection[key],
+                        state.languageSelection[key],
                       ),
                     );
                   }).toList(),

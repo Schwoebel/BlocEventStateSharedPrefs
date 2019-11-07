@@ -1,5 +1,7 @@
 part of 'settings.bloc.dart';
-
+/// I go with named Event Classes by What 'i' would tell it to do if I had a magic wand.
+/// 'MagicWord'Event
+/// Corny, but clear.
 class SettingsEvent extends BlocEvent{
   final SettingsEventType eventType;
   SettingsEvent(this.eventType);
